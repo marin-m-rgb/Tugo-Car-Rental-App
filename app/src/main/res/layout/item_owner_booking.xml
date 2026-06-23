@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_marginBottom="12dp">
+
+    <ImageView
+        android:id="@+id/owner_car_profile_photo_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/owner_confirmation_code_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Code: TUGO-12345"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/owner_car_license_plate_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plate: ABC123"
+        android:textSize="18sp"
+        android:textColor="#2f2f2f"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/owner_price_per_day_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$250.00/day"
+        android:textSize="18sp"
+        android:textColor="#2f2f2f"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/renter_name_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Renter: FirstName LastName"
+        android:textSize="18sp"
+        android:textColor="#2f2f2f"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/owner_car_rent_date_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start - End dates"
+        android:textSize="18sp"
+        android:textColor="#555555"
+        android:layout_marginBottom="4dp"/>
+
+    <Button
+        android:id="@+id/owner_cancel_booking_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel Booking"
+        android:backgroundTint="#000000"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>
+

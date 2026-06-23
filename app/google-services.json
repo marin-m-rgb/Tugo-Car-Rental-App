@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1014380454230",
+    "project_id": "tugoappproject",
+    "storage_bucket": "tugoappproject.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014380454230:android:81c42859e9351c2fc7b6f7",
+        "android_client_info": {
+          "package_name": "com.example.tugoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPGj0TMxQ5JdpErpEbQNZveBN670y0aW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

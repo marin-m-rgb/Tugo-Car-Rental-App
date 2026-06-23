@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="My Cars"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#2f2f2f" />
+
+        <Button
+            android:id="@+id/owner_logout_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log out"
+            android:backgroundTint="#000000" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/owner_car_listing_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/owner_create_listing_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Listing"
+            android:backgroundTint="#000000"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/owner_manage_bookings_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manage Bookings"
+            android:backgroundTint="#000000" />
+
+    </LinearLayout>
+
+</LinearLayout>

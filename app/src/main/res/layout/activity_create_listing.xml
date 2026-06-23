@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".CreateListingActivity">
+
+    <TextView
+        android:id="@+id/owner_car_listing_title_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Car Listing"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#2f2f2f"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/owner_car_brand_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Brand (e.g., Tesla)"
+                android:layout_marginBottom="16dp"/>
+
+            <EditText
+                android:id="@+id/owner_car_model_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Model (e.g., Model 2)"
+                android:layout_marginBottom="16dp"/>
+
+            <EditText
+                android:id="@+id/owner_car_color_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Color (e.g., Green)"
+                android:layout_marginBottom="16dp"/>
+
+            <EditText
+                android:id="@+id/owner_car__license_plate_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="License Plate (e.g., ABC123)"
+                android:layout_marginBottom="16dp"/>
+
+            <EditText
+                android:id="@+id/owner_car_price_per_day_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Price Per Day (e.g., 95.00)"
+                android:inputType="numberDecimal"
+                android:layout_marginBottom="16dp"/>
+
+            <EditText
+                android:id="@+id/owner_car_city_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="City (e.g., Toronto)"
+                android:layout_marginBottom="16dp"/>
+
+            <EditText
+                android:id="@+id/owner_car_address_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Address (e.g., 1485 Portage Avenue)"
+                android:layout_marginBottom="16dp"/>
+
+            <EditText
+                android:id="@+id/owner_car_photo_url_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Photo URL"
+                android:layout_marginBottom="24dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/owner_create_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create"
+        android:backgroundTint="#000000"/>
+
+</LinearLayout>
